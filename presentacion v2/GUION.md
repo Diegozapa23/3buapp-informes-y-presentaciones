@@ -23,11 +23,11 @@ Regla para todos: las láminas tienen poco texto a propósito. Cada una abre con
 
 ## 1. Cristóbal Pontigo (01–03)
 
-### 01 · Del diagnóstico al diseño
+### 01 · Del diagnóstico al diseño técnico
 > "Buenos días, profesor. Somos el equipo de 3Buapp. En la primera entrega diagnosticamos el problema; en esta presentamos el diseño técnico: cronograma, arquitectura 4+1, interfaces, base de datos, seguridad y pruebas. Además, parte de ese diseño ya está construido."
 
 ### 02 · Del problema al plano
-> "En la primera entrega encontramos cinco problemas; están arriba, en rojo. Debajo de cada uno, cómo lo resuelve 3Buapp: cada emisor tenía su formato, ahora hay un CSV estándar validado; nadie revisaba el cálculo, ahora la base calcula y frena una suma mayor que 1; los cambios no dejaban rastro, ahora todo queda registrado; el dato oficial se mezclaba, ahora cada corredor ve lo suyo, y una carga mala llegaba a todos, ahora un supervisor la aprueba antes. Abajo, lo que ya está construido."
+> "En la primera entrega encontramos cinco problemas; están en las tarjetas de arriba. Debajo de cada uno, cómo lo resuelve 3Buapp: cada emisor tenía su formato, ahora hay un CSV estándar validado; nadie revisaba el cálculo, ahora la base calcula y frena una suma mayor que 1; los cambios no dejaban rastro, ahora todo queda registrado; el dato oficial se mezclaba, ahora cada corredor ve lo suyo, y una carga mala llegaba a todos, ahora un supervisor la aprueba antes. Abajo, lo que ya está construido."
 
 ### 03 · Scrum marca el ritmo. Kanban, el flujo
 > "Usamos Scrumban. A la izquierda, la parte Scrum: trabajamos en ciclos de dos semanas que siempre siguen la misma rueda: planificar, construir, mostrar al cliente y mejorar. Vamos en el ciclo 2 de 5. A la derecha, la parte Kanban: nuestro tablero real. Cada cuadrito es una tarea y su color es quién la tiene. Es nuestro tablero de GitHub tal como está hoy, con sus estados reales: 7 terminadas (PR integrado), 7 en revisión (PR abierto), 11 listas para empezar y 11 por hacer. Así cualquiera ve en qué está el proyecto sin leer código."
@@ -60,7 +60,7 @@ Regla para todos: las láminas tienen poco texto a propósito. Cada una abre con
 > "Este es el prototipo del mantenedor. (1) Filtros por mercado, origen y período. (2) Los 30 factores a 8 decimales. (3) El origen de cada calificación, bolsa o corredor. (4) Las acciones. Reemplaza la planilla: las 763 calificaciones del período, 200 por página."
 
 ### 09 · Cientos de filas, cero sorpresas
-> "La carga es un asistente de tres pasos. Este archivo trae 214 filas: 209 válidas y 5 con error, cada una con su causa exacta. Al enviar, la carga queda pendiente y va a la bandeja del supervisor: cuatro ojos y doble factor."
+> "Esta es la carga masiva. (1) Es un asistente de tres pasos: elegir el archivo, validarlo y enviarlo a aprobación. (2) Este archivo trae 214 filas: 209 válidas y 5 con error. (3) Cada error dice la fila, el campo y la causa exacta. (4) Al enviar, la carga queda pendiente, no se graba: va a la bandeja del supervisor, que debe ser otra persona y entrar con doble factor."
 
 **Pase:** "Diego explica cómo se guardan y protegen estos datos."
 
